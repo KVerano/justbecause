@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>happy birthday!</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Caveat:wght@600&display=swap');
@@ -160,6 +161,57 @@
         #back {
             width: 100%;
         }
+
+        @media (max-width: 600px) {
+            body {
+                gap: 12px;
+                padding: 20px;
+            }
+
+            .card {
+                width: 100%;
+                max-width: 360px;
+                height: auto;
+                min-height: 260px;
+                padding: 28px 24px;
+                border-radius: 24px;
+            }
+
+            .card.opened {
+                transform: scale(1);
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            .message p {
+                font-size: 15px;
+                line-height: 1.6;
+                text-align: center;
+            }
+
+            .signoff {
+                font-size: 24px;
+                margin-top: 14px;
+            }
+
+            button {
+                padding: 11px 22px;
+                font-size: 14px;
+            }
+
+            #cannonBtn {
+                width: 100%;
+                max-width: 360px;
+                height: 52px;
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -174,7 +226,8 @@
 
         <div id="back" class="hidden message">
             <p>
-                happy birthdayyy misterrr! hope u have an amazing day today! thank you for always being there and for all
+                happy birthdayyy misterrr! hope u have an amazing day today! thank you for always being there and for
+                all
                 the little things you do. me is super super grateful to you! keep smiling, keep shining, and know that u
                 can always count on me. charez lyrics pala yan. anyways, happy beeday again! 🎂🎉
             </p>
